@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Duce</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>6.5.0</version>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>co.dapi</groupId>-->
+<!--            <artifactId>dapi-java</artifactId>-->
+<!--            <version>1.6.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>cn.tdchain</groupId>-->
+<!--            <artifactId>td-api</artifactId>-->
+<!--            <version>0.0.2.HE.5</version>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>telegram</groupId>
+            <artifactId>telegram</artifactId>
+            <version>0.2.9</version>
+        </dependency>
+        <dependency>
+            <groupId>ca.denisab85</groupId>
+            <artifactId>tdlib</artifactId>
+            <version>v1.8.8-20221107</version>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <repositories>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars</name>
+            <url>https://repo.clojars.org/</url>
+        </repository>
+    </repositories>
+
+</project>
